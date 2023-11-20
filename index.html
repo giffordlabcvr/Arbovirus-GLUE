@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  
+
+    <meta charset="UTF-8">
+    <title>Arbovirus-GLUE by giffordlabcvr</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="website/assets/stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="website/assets/stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="website/assets/stylesheets/github-light.css" media="screen">
+
+  </head>
+
+  <body>
+    <section class="page-header">
+    
+      <h1 class="project-name">Arbovirus-GLUE</h1>
+      <h2 class="project-tagline">GLUE-based resources for comparative genomic analysis of arthropod-borne viruses</h2>
+
+    </section>
+
+    <section class="main-content">
+
+
+	   <h3>
+		 <a id="Background" class="anchor" href="#Background" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Comparative genomic analysis of arboviruses using GLUE</strong>
+	   </h3>
+	   <hr>
+
+	   <p>
+		 This is <b>Arbovirus-GLUE</b>, a collection of 
+		 <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/"><b>GLUE</b></a>
+		 projects for arboviruses, that developed as part of the 
+		 <a target="_blank" href="https://climade.health/about/"><b>CLIMADE</b></a> initiative.
+	   </p>
+
+	   <p>
+		 The overarching long-term goal of
+		 <a target="_blank" href="https://climade.health"><b>CLIMADE</b></a>.
+		 is to predict, track and control diseases
+		 and epidemics  that are amplified by human-caused climate change in the most affected 
+		 countries in the world. CLIMADE will leverage the medical, scientific, and public
+		 health experience of epidemiology, ecology and evolution in the global south to
+		 establish a robust disease surveillance system, with which to quickly identify
+		 pathogens and track their evolution and spread, to control outbreaks before they
+		 become epidemics and epidemics before they become pandemics.
+	   </p>
+
+	   <p>
+		 Arbovirus-GLUE currently incorporates the following GLUE projects:
+	   </p>
+
+		  <ul>
+		    <li><b><a target="_blank" href="https://github.com/giffordlabcvr/Dengue-GLUE">Dengue-GLUE</a></b>: a GLUE project for Dengue virus (DENV)</li>
+		    <li><b><a target="_blank" href="https://github.com/giffordlabcvr/CHIKV-GLUE">CHIKV-GLUE</a></b>: a GLUE project for Chikungunya virus (CHIKV)</li>
+		    <li><b><a target="_blank" href="https://github.com/giffordlabcvr/YFV-GLUE">YFV-GLUE</a></b>: a GLUE project for yellow fever virus (YFV)</li>
+		    <!--<li><b><a target="_blank" href="btv-glue.cvr.gla.ac.uk">BTV-GLUE</a></b>: a GLUE project for bluetongue virus (BTV)*</li>-->
+
+		  </ul>
+	   
+ 
+ 	   <h3>
+	   <a id="WhatGlueProject" class="anchor" href="#glueProject" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>What is a GLUE project?</strong>
+	   </h3>
+       <hr>
+
+	   <p>	   
+		 The <a target="_blank" href="https://github.com/giffordlabcvr/gluetools"><b>GLUE software framework</b></a>
+		 provides an extensible platform for implementing computational genomic
+		 analysis of viruses in an <b>efficient, standardised and reproducible</b> way.
+	   </p>
+
+	   <p>
+		 <a target="_blank" href="https://github.com/giffordlabcvr/gluetools"><b>GLUE</b></a> is an open, integrated
+		 software toolkit that provides functionality for storage and interpretation of
+		 sequence data. It supports the development of <b>“projects”</b> containing the data items
+		 required for comparative genomic analysis 
+		 (e.g.  sequences, multiple sequence alignments, genome feature annotations,
+		 and other sequence-associated data). 
+	   </p>
+
+
+        <br>
+        <p><img src="./website/assets/images/glue-framework.jpg" alt="GLUE framework figure" /></p>
+        <br>
+
+
+	   <p>
+		 Projects are loaded into the <b>GLUE "engine"</b>, creating a <b>relational database</b>
+		 that represents the semantic relationships between data items.
+		 This provides a robust foundation for the implementation of <b>systematic
+		 comparative analyses</b> and the development of <b>sequence-based resources</b>. 
+		 The database schema can be extended to accommodate the idiosyncrasies of different projects.
+		 GLUE provides a scripting layer (based on <a target="_blank" href="https://www.javascript.com/"><b>JavaScript</b></a>)
+		 for developing custom analysis tools. 
+	   </p>
+
+
+	   <p>
+        <b>GLUE projects</b> can not only incorporate all of the data items typically used in
+         comparative genomic analysis
+         (e.g. sequences, alignments, genome feature annotations) but can also represent the complex
+         semantic links between these data items via a <b>relational database</b>.
+         This 'poises' sequences and associated data for application in computational
+         analysis, minimising the requirement for labour-intensive pre-processing of datasets.
+
+		 GLUE projects are equally suited for carrying out exploratory work 
+		 (e.g. using virus genome data to investigate structural and functional properties of viruses)
+		 as they are for implementing operational procedures (e.g. producing
+		 <a target="_blank" href="http://hcv-glue.cvr.gla.ac.uk/exampleReports/resistanceGeno1.html?hcvGlueVersion=0.1.68""><b>standardised reports</b></a>
+		 in a public or animal health setting).
+	   </p>      
+
+
+	   <p>
+		 Hosting of GLUE projects in an online version control system (e.g. <b>GitHub</b>) provides
+		 a mechanism for their stable, collaborative development, as shown below.
+	   </p>
+	  
+	   <p><img src="./website/assets/images/github-hosting.jpg" alt="GitHub illustration" /></p>
+
+
+
+
+
+	   <br>
+	   <p><img src="./website/assets/images/glue-servers.png" alt="GLUE resources: server deployment illustration" /></p>
+	   <br>
+
+	 
+
+
+	   <br>
+	   <h3>
+	   <a id="WhyGlueProject" class="anchor" href="#glueProject" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>What do GLUE projects offer?</strong>
+	   </h3>
+	   <hr>
+
+		 
+ 	   
+	   <p>
+
+		  <ol>
+
+			<li> <strong>Reproducibility</strong>. 
+			For many reasons, bioinformatics analyses are notoriously difficult to reproduce.
+			The GLUE framework supports the implementation of fully reproducible 
+			comparative genomics through the introduction of data standards and the use 
+			of a relational database to capture the semantic links between data items.
+			</li>
+			<br>
+		  
+			<li> <strong>Reusable data objects and analysis logic</strong>. 
+			For many - if not most - comparative genomic analyses, data preparation is nine
+			tenths of the battle. The GLUE framework has been designed to ensure that 
+			work spent preparing high-value data items such as multiple sequence alignments
+			need only be performed once. Hosting of GLUE projects in an online version control 
+			system such as GitHub allows for collaborative management of important data items
+			and community testing of hypotheses.
+			</li>
+			<br>
+
+
+			<li> <strong>Validation</strong>. 
+			Building GLUE projects entails mapping the semantic links between data items
+			(e.g. sequences, tabular data, multiple sequence alignments).
+			This process provides an opportunity 
+			for cross-validation, and thereby enforces a high level of data integrity.
+			</li>
+			<br>
+		
+			<li> <strong>Standardisation of the genomic co-ordinate space</strong>. GLUE
+			projects allow all sequences to utilise the coordinate space of a chosen 
+			reference sequence. Contingencies associated with insertions and deletions
+			(indels) are handled in a systematic way.
+			</li>
+			<br>
+		  
+			<li> <strong>Predefined, fully annotated reference sequences</strong>:
+			This project includes fully-annotated reference sequences for major lineages
+			within the <i>Hepadnaviridae</i> family.
+			</li>
+			<br>
+		  
+			<li> <strong>Alignment trees</strong>:
+			GLUE allows linking of alignments constructed at distinct taxonomic levels
+			via an ""<b>alignment tree</b>"
+			data structure. In the alignment tree, each alignment
+			is constrained to a standard reference sequence, thus all multiple sequence
+			alignments are linked to one another via a standardised coordinate system.
+			</li>
+			
+		  </ol>
+
+
+	   </p>
+
+
+ 
+	   <h3>
+		 <a id="license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>License</strong>
+	   </h3>
+       <hr>
+
+		 <p>
+		   All GLUE projects in Arbovirus-GLUE are licensed under the <a href="https://www.gnu.org/licenses/agpl-3.0.en.html">GNU Affero General Public License v. 3.0</a>.
+		 </p>
+
+	   <br>
+	   <br>
+
+
+
+	 <footer class="site-footer">
+	   <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+	 </footer>
+
+    </section>
+
+
+  </body>
+  
+</html>
